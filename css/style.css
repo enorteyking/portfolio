@@ -11,28 +11,28 @@
     /* background-color: cadetblue; */
 }
 
-.profileImage {
-    height: 155px;
-    width: 55%;
+.profile-image {
+    height: 150px;
+    width: 50%;
     margin: auto;
-    background-image: url(../images/avatar.png);
+    background-image: url(../images/Emmanuel\ picture.png);
     background-position: center;
-    background-size: cover;
+    background-size: 145%;
     border-radius: 50%;
 }
 
-.tagName {
+.tag-name {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     text-align: center;
 }
 
-.tagName h2 {
+.tag-name h2 {
     align-items: center;
 }
 
-.tagName p {
+.tag-name p {
     font-size: 12px;
 }
 
@@ -64,5 +64,5 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    row-gap: 10px;
 }
